@@ -1,6 +1,5 @@
+/* Common styles */
 body {
-    background-color: #e6f7ff; /* Light Blue */
-    color: #333;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -10,16 +9,31 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
 }
 
 footer {
-    background-color: #343a40; /* Dark Gray */
-    color: #fff;
     text-align: center;
     padding: 10px;
 }
 
 .navbar-brand {
+    color: #fff;
+}
+
+/* Home Page Styles */
+body.home {
+    background-color: #87CEFA; /* Light Blue */
+    color: #333;
+}
+
+/* About Page Styles */
+body.about {
+    background-color: #fff; /* White */
+    color: #333;
+}
+
+/* Schedule Page Styles */
+body.schedule {
+    background-color: #FFA500; /* Orange */
     color: #fff;
 }
